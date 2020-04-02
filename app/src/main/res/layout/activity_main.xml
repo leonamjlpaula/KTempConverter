@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_margin="16dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/et_temperature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/et_hint"
+        android:inputType="numberDecimal"
+        android:singleLine="true"
+        android:importantForAutofill="no" />
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rb_celsius"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/celsius"
+            android:checked="false"/>
+
+        <RadioButton
+            android:id="@+id/rb_fahreinheit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fahreinheit"
+            android:checked="true"/>
+
+    </RadioGroup>
+    <Button
+        android:id="@+id/bt_convert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_convert_label"/>
+
+</LinearLayout>

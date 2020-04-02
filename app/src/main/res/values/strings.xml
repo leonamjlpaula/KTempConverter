@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">KTempConverter</string>
+    <string name="invalid_number_toast">Enter a valid number</string>
+    <string name="et_hint">Enter a temperature</string>
+    <string name="celsius">Celsius</string>
+    <string name="fahreinheit">Fahreinheit</string>
+    <string name="bt_convert_label">Convert temperature</string>
+</resources>
